@@ -1,0 +1,54 @@
+{
+  "name": "omit-string",
+  "description": "Pass a string or a array of strings to strip from the source string. Works just like `omit` for objects, so you can pass a string or array of strings to remove. You can also pass a regex or array of regular expressions, but patterns are used for removal - not replacements.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/omit-string",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/omit-string.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/omit-string/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/omit-string/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "^4.0.4",
+    "verb": ">= 0.2.6",
+    "verb-tag-jscomments": ">= 0.2.0"
+  },
+  "keywords": [
+    "expression",
+    "javascript",
+    "js",
+    "regex",
+    "regexp",
+    "regular",
+    "remove",
+    "replace",
+    "string",
+    "strip",
+    "util",
+    "utility",
+    "utils"
+  ],
+  "dependencies": {
+    "kind-of": "^0.1.0"
+  }
+}
