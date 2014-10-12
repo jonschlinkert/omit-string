@@ -16,6 +16,16 @@ describe('omit', function () {
     it('should remove the string.', function () {
       omit('abcabcabcabcabcabc', 'a').should.equal('bcbcbcbcbcbc');
     });
+
+    it('should return the string if no patterns are given.', function () {
+      omit('abcabcabcabcabcabc').should.equal('abcabcabcabcabcabc');
+    });
+
+    it('should throw an error when no string is passed.', function () {
+      (function () {
+        omit(null);
+      }).should.throw('omit-string expects a string.');
+    });
   });
 
   describe('array:', function () {

@@ -3,10 +3,10 @@
 > Pass a string or a array of strings to strip from the source string. Works just like `omit` for objects, so you can pass a string or array of strings to remove. You can also pass a regex or array of regular expressions, but patterns are used for removal - not replacements.
 
 ## Install
-#### Install with [npm](npmjs.org):
+#### Install with [npm](npmjs.org)
 
 ```bash
-npm i omit-string --save-dev
+npm i omit-string --save
 ```
 
 ## Run tests

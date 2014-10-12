@@ -9,7 +9,15 @@
 
 var typeOf = require('kind-of');
 
-module.exports = function (str, omit) {
+module.exports = function omitString(str, omit) {
+  if (str == null) {
+    throw new Error('omit-string expects a string.');
+  }
+
+  if (omit == null) {
+    return str;
+  }
+
   omit = Array.isArray(omit) ? omit : [omit];
 
   var len = omit.length;
